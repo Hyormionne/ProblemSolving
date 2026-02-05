@@ -12,7 +12,8 @@ def primes3(n):
             if n3 >= 2 and prime_check[n3]:
                 return [prime[i], prime[j], n3]
     return 0
-    
+
+
 T = int(input())
 K_list = [int(input()) for _ in range(T)]
 maxK = max(K_list)
